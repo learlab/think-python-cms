@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_page_videos",
+  "info": {
+    "displayName": "Video",
+    "icon": "play"
+  },
+  "options": {},
+  "attributes": {
+    "Video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Header": {
+      "type": "string"
+    }
+  }
+}

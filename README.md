@@ -11,9 +11,7 @@ This example deploys self-hosted version of [Strapi](https://strapi.io/). Intern
 
 ## 💁‍♀️ How to use
 
-- Click the Railway button 👆
-- Add the environment variables
-  - If you do not add the Cloudinary related environment variables, your images/files will not be persisted between deploys.
+- `yarn develop` will make the app available on :1337.
 
 ## 📝 Notes
 

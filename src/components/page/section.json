@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_sections",
+  "info": {
+    "displayName": "Chunk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "richtext"
+    },
+    "Header": {
+      "type": "string"
+    }
+  }
+}
