@@ -18,4 +18,13 @@ module.exports = ({ env }) => ({
         },
       },
     },
-  });
+    'drag-drop-content-types': {
+      enabled: true
+    },
+    'open-ai': {
+      enabled: true,
+      config: {
+        API_TOKEN: env('OPEN_AI_API_TOKEN'),
+      },
+    },
+});

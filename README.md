@@ -1,8 +1,6 @@
 # Strapi example
 
-This example deploys self-hosted version of [Strapi](https://strapi.io/). Internally it uses a PostgreSQL database to store the data.
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/strapi?referralCode=milo)
+This is an example Strapi deployment hosted on Railway and using Cloudinary for the Postgres database. Vercel and Supabase would also work.
 
 ## ✨ Features
 
@@ -13,7 +11,9 @@ This example deploys self-hosted version of [Strapi](https://strapi.io/). Intern
 
 - `yarn develop` will make the app available on :1337.
 
-## 📝 Notes
+## Extensions
 
-- After your app is deployed, visit the `/admin` endpoint to create your admin user.
-- Railway's filesystem is ephemeral which is why any changes to the filesystem are not persisted between deploys. This is why, this example uses Cloudinary for storage.
+- [Drag and Drop Content-Types for Ordering](https://market.strapi.io/plugins/@retikolo-drag-drop-content-types)
+- [Strapi Plugin Upload Cloudinary](https://market.strapi.io/providers/@strapi-provider-upload-cloudinary)
+- [Embed Youtube Videos](https://market.strapi.io/plugins/strapi-plugin-oembed)
+- [OpenAI](https://market.strapi.io/plugins/@strapi-plugin-open-ai)

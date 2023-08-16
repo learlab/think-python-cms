@@ -2,8 +2,16 @@
   "collectionName": "components_page_exercises",
   "info": {
     "displayName": "Exercise",
-    "icon": "rocket"
+    "icon": "rocket",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    }
+  }
 }

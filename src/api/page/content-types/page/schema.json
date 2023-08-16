@@ -4,7 +4,7 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Section",
+    "displayName": "Page",
     "description": ""
   },
   "options": {
@@ -15,9 +15,9 @@
     "Title": {
       "type": "string"
     },
-    "Section": {
+    "rank": {
       "type": "integer",
-      "required": true
+      "required": false
     },
     "Content": {
       "type": "dynamiczone",
