@@ -29,6 +29,14 @@ module.exports = ({ env }) => ({
     },
     'slugify':{
         enabled: true,
-        resolve: './src/plugins/strapi-plugin-slugify'
-    },
+        resolve: './src/plugins/strapi-plugin-slugify',
+        config: {
+          contentTypes: {
+            page: {
+              field: 'slug',
+              references: 'Title',
+            },
+          },
+        },
+      },
 });
