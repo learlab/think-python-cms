@@ -27,6 +27,10 @@
         "page.video",
         "glossary.term"
       ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
     }
   }
 }
