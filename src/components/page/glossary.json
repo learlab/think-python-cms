@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_glossaries",
+  "info": {
+    "displayName": "Glossary",
+    "icon": "layer"
+  },
+  "options": {},
+  "attributes": {
+    "Term": {
+      "displayName": "Term",
+      "type": "component",
+      "repeatable": true,
+      "component": "glossary.term"
+    }
+  }
+}

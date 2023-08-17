@@ -24,7 +24,8 @@
       "components": [
         "page.section",
         "page.exercise",
-        "page.video"
+        "page.video",
+        "glossary.term"
       ]
     }
   }

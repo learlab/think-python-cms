@@ -27,4 +27,8 @@ module.exports = ({ env }) => ({
         API_TOKEN: env('OPEN_AI_API_TOKEN'),
       },
     },
+    'slugify':{
+        enabled: true,
+        resolve: './src/plugins/strapi-plugin-slugify'
+    },
 });

@@ -1,0 +1,29 @@
+{
+	"kind": "collectionType",
+	"collectionName": "keyphrases",
+	"info": {
+		"singularName": "keyphraselist",
+		"pluralName": "keyphraselists",
+		"displayName": "keyphrases"
+	},
+	"options": {
+		"draftAndPublish": true,
+		"comment": ""
+	},
+	"pluginOptions": {
+		"content-manager": {
+			"visible": true
+		},
+		"content-type-builder": {
+			"visible": true
+		}
+	},
+	"attributes": {
+		"keyphrases": {
+			"type": "text"
+		},
+		"count": {
+			"type": "integer"
+		}
+	}
+}

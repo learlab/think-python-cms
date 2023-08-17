@@ -11,9 +11,6 @@
     },
     "Text": {
       "type": "richtext"
-    },
-    "rank": {
-      "type": "integer"
     }
   }
 }

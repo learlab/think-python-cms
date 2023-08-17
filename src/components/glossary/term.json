@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_glossary_terms",
+  "info": {
+    "displayName": "Term"
+  },
+  "options": {},
+  "attributes": {
+    "Term": {
+      "type": "string",
+      "required": true
+    },
+    "Definition": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
