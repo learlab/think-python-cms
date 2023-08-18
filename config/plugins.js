@@ -22,23 +22,22 @@ module.exports = ({ env }) => ({
     enabled: true,
   },
   "open-ai": {
-    enabled: true,
+    enabled: false,
     config: {
       API_TOKEN: env("OPEN_AI_API_TOKEN"),
     },
   },
-  "content-generator": {
+  "auto-content": {
     enabled: true,
-    resolve: "./src/plugins/content-generator",
+    resolve: "./src/plugins/auto-content",
     config: {
       API_TOKEN: env("OPEN_AI_API_TOKEN"),
-      contentTypes: {
-        article: {
-          field: 'keyphrases',
-          prompt: 'Extract keyphrases from the following text: ',
-          references: 'title',
-        },
-      },
+      // contentTypes: {
+      //   page: {
+      //     field: "keyphrases",
+      //     references: "title",
+      //   },
+      // },
     },
   },
 });

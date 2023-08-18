@@ -1,12 +1,12 @@
 {
-  "name": "content-generator",
+  "name": "auto-content",
   "version": "0.0.0",
   "description": "This is the description of the plugin.",
   "strapi": {
-    "name": "content-generator",
-    "description": "Description of Content Generator plugin",
+    "name": "auto-content",
+    "description": "Description of Auto Content plugin",
     "kind": "plugin",
-    "displayName": "Content Generator"
+    "displayName": "Auto Content"
   },
   "dependencies": {
     "@strapi/design-system": "^1.6.3",

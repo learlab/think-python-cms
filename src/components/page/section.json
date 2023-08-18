@@ -11,6 +11,10 @@
     },
     "Text": {
       "type": "richtext"
+    },
+    "Question": {
+      "type": "customField",
+      "customField": "plugin::auto-content.question"
     }
   }
 }
