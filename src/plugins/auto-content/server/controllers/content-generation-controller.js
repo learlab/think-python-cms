@@ -1,15 +1,3 @@
-"use strict";
-
-// module.exports = ({ strapi }) => ({
-//   async generateQuestion(ctx) {
-//     ctx.body = await strapi
-//       .plugin('auto-content')
-//       .service('questionService')
-//       .generateQuestion(ctx.request.body.text);
-//   },
-// });
-
-
 module.exports = ({ strapi }) => {
   const questionService =
     strapi.plugins["auto-content"].service("questionService");
@@ -17,7 +5,7 @@ module.exports = ({ strapi }) => {
   const generateQuestion = async (ctx) => {
     const text = ctx.request.body.text;
 
-    if (text) {
+    if (text && text.length > 0) {
       try {
         return questionService.generateQuestion(text);
       } catch (err) {
