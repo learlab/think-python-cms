@@ -21,12 +21,6 @@ module.exports = ({ env }) => ({
   "drag-drop-content-types": {
     enabled: true,
   },
-  "open-ai": {
-    enabled: false,
-    config: {
-      API_TOKEN: env("OPEN_AI_API_TOKEN"),
-    },
-  },
   "auto-content": {
     enabled: true,
     resolve: "./src/plugins/auto-content",

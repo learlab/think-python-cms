@@ -57,7 +57,24 @@ export default {
           ),
       },
       options: {
-        // declare options here
+        base: [
+          {
+            // preferably, this should be a dropdown/select with available attributes
+            // for selecting rather than having to type in the name of the attribute
+            name: "options.targetField",
+            type: "string",
+            intlLabel: {
+              id: getTrad("options.base.targetField"),
+              defaultMessage: "Target field",
+              defaultValue: "components_page_section",
+            },
+            description: {
+              id: getTrad("options.base.targetField.description"),
+              defaultMessage: "Name of the attribute to generate slug against",
+            },
+          },
+        ],
+        advanced: [],
       },
     });
   },
