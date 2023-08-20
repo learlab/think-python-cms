@@ -1930,11 +1930,6 @@
     redux "^4.2.1"
     yup "^0.32.9"
 
-"@strapi/plugin-open-ai@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@strapi/plugin-open-ai/-/plugin-open-ai-1.0.1.tgz#e88a3b18c70e2d6d7faa6991c3c6d1a0aa1f1ec8"
-  integrity sha512-mmcWnRV6i0d+J1wRApzblsY6Xd9+gyzlp19tGZhUA7jLuYmCExkTl+EAzEV/Y01JqGZmcyFcfuhzM+jSjsR9mw==
-
 "@strapi/plugin-upload@4.11.7":
   version "4.11.7"
   resolved "https://registry.yarnpkg.com/@strapi/plugin-upload/-/plugin-upload-4.11.7.tgz#55e28bd6d755101547d5f35e41ded3fee82ea689"

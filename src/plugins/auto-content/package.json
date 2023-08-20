@@ -1,12 +1,12 @@
 {
   "name": "auto-content",
   "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "description": "A plugin that generates educational content for iTELL web apps using AI.",
   "strapi": {
-    "name": "auto-content",
-    "description": "Description of Auto Content plugin",
+    "name": "Content Generator",
+    "description": "Content Generator will automatically generate questions and keyphrases for your content. This content is used by iTELL to automatically provide learners with activities and feedback opportunities as they work through their learning materials.",
     "kind": "plugin",
-    "displayName": "Auto Content"
+    "displayName": "Content Generator"
   },
   "dependencies": {
     "@strapi/design-system": "^1.6.3",
