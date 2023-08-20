@@ -26,12 +26,6 @@ module.exports = ({ env }) => ({
     resolve: "./src/plugins/auto-content",
     config: {
       API_TOKEN: env("OPEN_AI_API_TOKEN"),
-      // contentTypes: {
-      //   page: {
-      //     field: "keyphrases",
-      //     references: "title",
-      //   },
-      // },
     },
   },
 });

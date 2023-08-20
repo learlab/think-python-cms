@@ -55,22 +55,7 @@ export default {
           import("./components/ContentGenerator/ContentGeneratorInput"),
       },
       options: {
-        base: [
-          // {
-          //   // preferably, this should be a dropdown/select with available attributes
-          //   // for selecting rather than having to type in the name of the attribute
-          //   name: "options.targetFieldTesxt",
-          //   type: "string",
-          //   intlLabel: {
-          //     id: getTrad("options.base.targetFieldTesxt.label"),
-          //     defaultMessage: "Target field",
-          //   },
-          //   description: {
-          //     id: getTrad("options.base.targetFieldTesxt.description"),
-          //     defaultMessage: "Name of the attribute to generate slug against",
-          //   },
-          // },
-        ],
+        base: [],
         advanced: [],
       },
     });

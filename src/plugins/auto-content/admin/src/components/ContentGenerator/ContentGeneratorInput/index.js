@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { useIntl } from "react-intl";
-import { TextInput } from "@strapi/design-system/TextInput";
 import { Stack } from "@strapi/design-system/Stack";
 import { Button } from "@strapi/design-system/Button";
 import { Textarea } from "@strapi/design-system";
@@ -18,16 +16,17 @@ export default function Index({
   options,
   attribute,
 }) {
-  const { formatMessage } = useIntl();
-  //   const [prompt, setPrompt] = useState("");
-  const [err, setErr] = useState("");
-
   const { modifiedData, initialData } = useCMEditViewDataManager();
-  const [dynamicZone, index] = name.split(".");
+  const [dynamicZone, index, fieldName] = name.split(".");
+
+  // could make the target field configurable. "Text" is hardcoded.
   const debouncedTargetFieldValue = useDebounce(
     modifiedData[dynamicZone][index]["Text"],
     300
   );
+
+  // could use modifiedData.publishedAt === null to only allow content generation for unpublished content
+  // authors would have to unpublish their content to re-generate the content
 
   const generateText = async () => {
     // Get the text from the chunk text field in Strapi
@@ -64,24 +63,19 @@ export default function Index({
     onChange({ target: { name, value: "", type: attribute.type } });
   };
 
-  // for testing
+  // for testing. Might be nice to do something like
+  // if process.env.NODE_ENV === "development"
+  // but I don't really know if that would work.
   useEffect(() => {
     console.log(modifiedData);
   }, [modifiedData]);
   // end testing
 
   return (
-    // <Stack spacing={1}>
-    //   <TextInput
-    //     placeholder="Please write a prompt for content to generate"
-    //     label="Prompt"
-    //     name="Prompt"
-    //     onChange={(debouncedTargetFieldValue) => setPrompt(debouncedTargetFieldValue)}
-    //     value={prompt}
-    //   />
     <Stack spacing={2}>
       <Textarea
-        placeholder="Generated text"
+        placeholder="You can generate content here, or add it yourself."
+        label={fieldName}
         name="content"
         onChange={(e) =>
           onChange({
@@ -98,6 +92,5 @@ export default function Index({
         </Button>
       </Stack>
     </Stack>
-    // </Stack>
   );
 }
