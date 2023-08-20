@@ -24,8 +24,13 @@
       "components": [
         "page.section",
         "page.exercise",
-        "page.video"
+        "page.video",
+        "glossary.term"
       ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
     }
   }
 }

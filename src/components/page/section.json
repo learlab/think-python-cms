@@ -12,8 +12,9 @@
     "Text": {
       "type": "richtext"
     },
-    "rank": {
-      "type": "integer"
+    "Question": {
+      "type": "customField",
+      "customField": "plugin::auto-content.question"
     }
   }
 }
