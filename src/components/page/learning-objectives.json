@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_learning_objectives",
+  "info": {
+    "displayName": "Learning Objectives",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "LearningObjective": {
+      "displayName": "Learning Objective",
+      "type": "component",
+      "repeatable": true,
+      "component": "learning-objectives.learning-objective"
+    }
+  }
+}

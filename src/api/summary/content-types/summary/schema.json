@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "summaries",
+  "info": {
+    "singularName": "summary",
+    "pluralName": "summaries",
+    "displayName": "Summary"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "SummaryInfo": {
+      "displayName": "Summary Info",
+      "type": "component",
+      "repeatable": true,
+      "component": "summary.summary-info"
+    }
+  }
+}

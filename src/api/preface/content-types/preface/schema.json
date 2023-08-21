@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "prefaces",
+  "info": {
+    "singularName": "preface",
+    "pluralName": "prefaces",
+    "displayName": "Preface",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Content": {
+      "type": "dynamiczone",
+      "components": [
+        "page.extra"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    }
+  }
+}

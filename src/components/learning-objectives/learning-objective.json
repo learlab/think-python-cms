@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_learning_objectives_learning_objectives",
+  "info": {
+    "displayName": "Learning Objective",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    }
+  }
+}

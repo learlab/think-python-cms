@@ -13,6 +13,9 @@
     "YouTube": {
       "type": "customField",
       "customField": "plugin::oembed.oembed"
+    },
+    "Description": {
+      "type": "richtext"
     }
   }
 }

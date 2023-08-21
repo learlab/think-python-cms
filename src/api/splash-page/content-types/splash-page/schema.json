@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "splash_pages",
+  "info": {
+    "singularName": "splash-page",
+    "pluralName": "splash-pages",
+    "displayName": "Splash Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Blurb": {
+      "type": "richtext"
+    }
+  }
+}

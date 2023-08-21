@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_summary_summary_infos",
+  "info": {
+    "displayName": "Summary Info",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Info": {
+      "type": "text"
+    }
+  }
+}

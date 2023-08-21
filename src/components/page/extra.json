@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_extras",
+  "info": {
+    "displayName": "Extra"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "type": "string"
+    },
+    "Text": {
+      "type": "richtext"
+    }
+  }
+}
