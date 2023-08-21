@@ -27,5 +27,8 @@ module.exports = ({ env }) => ({
     config: {
       API_TOKEN: env("OPEN_AI_API_TOKEN"),
     },
+    "content-versioning": {
+      enabled:  true,
+    },
   },
 });
