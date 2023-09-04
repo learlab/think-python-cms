@@ -20,7 +20,7 @@
     "@strapi/plugin-users-permissions": "4.12.5",
     "@strapi/provider-upload-cloudinary": "4.12.5",
     "@strapi/strapi": "4.12.5",
-    "better-sqlite3": "^8.5.0",
+    "better-sqlite3": "^8.6.0",
     "pg": "8.11.1",
     "strapi-plugin-oembed": "^1.1.0"
   },
