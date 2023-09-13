@@ -1254,12 +1254,12 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@notum-cz/strapi-plugin-content-versioning@^0.4.10":
-  version "0.4.10"
-  resolved "https://registry.yarnpkg.com/@notum-cz/strapi-plugin-content-versioning/-/strapi-plugin-content-versioning-0.4.10.tgz#7198c8b0f0420d401a9544f21216e35626449b7c"
-  integrity sha512-72JKqMAtsrl/X40c3UzCfQmVIErL1UkE0oElQz9OMuGqLFRkpKGTJL0VOg7LZy5MKDD41mDrpZBT+WaIle4Hbw==
+"@notum-cz/strapi-plugin-content-versioning@^0.4.11":
+  version "0.4.11"
+  resolved "https://registry.yarnpkg.com/@notum-cz/strapi-plugin-content-versioning/-/strapi-plugin-content-versioning-0.4.11.tgz#d706048150e4703b07ed1a36990c9dc7f7575366"
+  integrity sha512-ueouMC3jjNmpV9wMiR338N6tRlUxbMM8VDrvFypizIVNgsPS73pux3cbJlfjzYb8Dr6h4FIL3iPrMLAoJ2k9BA==
   dependencies:
-    "@strapi/utils" "^4.12.0"
+    "@strapi/utils" "^4.13.4"
     lodash "^4.17.21"
     uuid "^9.0.0"
 
@@ -2150,10 +2150,22 @@
     aria-hidden "^1.2.3"
     react-remove-scroll "^2.5.6"
 
-"@strapi/utils@4.12.5", "@strapi/utils@^4.12.0":
+"@strapi/utils@4.12.5":
   version "4.12.5"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.12.5.tgz#c1d452d13efde330c8554b17cabdcaab152ee6b7"
   integrity sha512-rZvRHJlWah762tFjAQb4N/anTR8Vnidmtpo6idFfqr58nnQ5WdJKrAy4WNEHd8wFxhnFGa39VamCAw5DeBXS8g==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.30.0"
+    http-errors "1.8.1"
+    lodash "4.17.21"
+    p-map "4.0.0"
+    yup "0.32.9"
+
+"@strapi/utils@^4.13.4":
+  version "4.13.6"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.13.6.tgz#3526979e640d10dc853e277bf628abfdee9a5fcc"
+  integrity sha512-9IlkOe+mmZUh1WzQW+oWhEgRYuq2DHDWe1JzaNoCivVssFZh9PUr8GT6JYCk9LrNwGP2uX9o42K03NQi1NZ05A==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.30.0"
